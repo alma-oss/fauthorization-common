@@ -2,11 +2,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <OutputType>Library</OutputType>
-        <PackageId>Lmc.Authorization.Common</PackageId>
+        <PackageId>Alma.Authorization.Common</PackageId>
         <Version>3.0.0</Version>
-        <RepositoryUrl>https://bitbucket.lmc.cz/projects/ARCHI/repos/fauthorization-common/browse</RepositoryUrl>
+        <RepositoryUrl>https://github.com/almacareer/prc-fauthorization-common.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/almacareer/prc-fauthorization-common</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>

@@ -1,5 +1,5 @@
 // ========================================================================================================
-// === F# / Project fake build ==================================================================== 1.0.0 =
+// === F# / Project fake build ==================================================================== 1.3.0 =
 // --------------------------------------------------------------------------------------------------------
 // Options:
 //  - no-clean   - disables clean of dirs in the first step (required on CI)
@@ -19,11 +19,13 @@ let main args =
 
     Targets.init {
         Project = {
-            Name = "Lmc.Authorization.Common"
+            Name = "Alma.Authorization.Common"
             Summary = "Library for common authorization types, shared between client and server."
             Git = Git.init ()
         }
-        Specs = Spec.defaultLibrary
+        Specs =
+            Spec.defaultLibrary
+            |> Spec.mapLibrary (fun library -> { library with NugetApi = NugetApi.Organization "almacareer" })
     }
 
     args |> Args.run
