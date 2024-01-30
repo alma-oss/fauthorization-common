@@ -1,14 +1,14 @@
-namespace Lmc.Authorization.Common
+namespace Alma.Authorization.Common
 
 //
 // Token Types
 //
 
-type JWTToken = JWTToken of string
+type JWT = JWT of string
 
 [<RequireQualifiedAccess>]
-module JWTToken =
-    let value (JWTToken value) = value
+module JWT =
+    let value (JWT value) = value
 
 //
 // User Types
@@ -29,15 +29,15 @@ module Password =
 
 type User = {
     Username: Username
-    Token: JWTToken
+    Token: JWT
 }
 
 //
 // Secured Request Types
 //
 
-type SecurityToken = SecurityToken of JWTToken
-type RenewedToken = RenewedToken of JWTToken
+type SecurityToken = SecurityToken of JWT
+type RenewedToken = RenewedToken of JWT
 
 type SecureRequest<'RequestData> = {
     Token: SecurityToken

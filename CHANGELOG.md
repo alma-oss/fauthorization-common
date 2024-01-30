@@ -4,7 +4,9 @@
 ## Unreleased
 
 ## 3.0.0 - 2023-08-11
-- [**BC**] Use net7.0
+- [**BC**] Use net8.0
+- [**BC**] Use Alma namespace
+- Fix project metadata
 
 ## 2.0.0 - 2022-01-04
 - [**BC**] Use net6.0
