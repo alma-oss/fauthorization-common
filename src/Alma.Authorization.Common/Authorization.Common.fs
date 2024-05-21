@@ -51,3 +51,4 @@ type SecuredRequestError<'Error> =
     | OtherError of 'Error
 
 type SecuredAsyncResult<'Success, 'Error> = Async<Result<RenewedToken * 'Success, SecuredRequestError<'Error>>>
+type SecuredApiCall<'Data, 'Success, 'Error> = SecureRequest<'Data> -> SecuredAsyncResult<'Success, 'Error>
