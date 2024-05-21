@@ -2,6 +2,7 @@
 
 <!-- There is always Unreleased section on the top. Subsections (Add, Changed, Fix, Removed) should be Add as needed. -->
 ## Unreleased
+- Add `SecuredApiCall` type
 
 ## 4.0.0 - 2024-01-30
 - [**BC**] Use net8.0
