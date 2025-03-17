@@ -5,7 +5,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <OutputType>Library</OutputType>
         <PackageId>Alma.Authorization.Common</PackageId>
-        <Version>5.0.0</Version>
+        <Version>5.1.0</Version>
         <RepositoryUrl>https://github.com/almacareer/prc-fauthorization-common.git</RepositoryUrl>
         <PackageProjectUrl>https://github.com/almacareer/prc-fauthorization-common</PackageProjectUrl>
     </PropertyGroup>
