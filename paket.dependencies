@@ -3,9 +3,6 @@ framework: net9.0
 source https://api.nuget.org/v3/index.json
 nuget FSharp.Core ~> 9.0
 
-source https://nuget.pkg.github.com/almacareer/index.json username: "%PRIVATE_FEED_USER%" password: "%PRIVATE_FEED_PASS%"
-# nuget Alma.<...>
-
 // [ FAKE GROUP ]
 group Build
     storage none
