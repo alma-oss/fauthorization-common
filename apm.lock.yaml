@@ -1,0 +1,113 @@
+lockfile_version: '1'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fauthorization-common
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fauthorization-common/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:4ae83c577194586a6760ab520d0534dc2627255b2dc52ebc4155b7c59d2e6e5f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fauthorization-common/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:dd811df48be4ab2818fee7a9ee4de009a1c4289b549e6f9559c0e1f868c17c31
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fauthorization-common/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:d45afdcb44ee2e8d696625fec6075511506c5c9baa413867e80a40a033be5457
+- kind: project-relative
+  target: claude
+  value: .claude/skills/fauthorization-common/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:326cc5cb870590b1989f4cc038ac056ba2f8ac892d88ed977982d757dce26c9a
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fauthorization-common
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fauthorization-common/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:4ae83c577194586a6760ab520d0534dc2627255b2dc52ebc4155b7c59d2e6e5f
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fauthorization-common/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:dd811df48be4ab2818fee7a9ee4de009a1c4289b549e6f9559c0e1f868c17c31
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fauthorization-common/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:d45afdcb44ee2e8d696625fec6075511506c5c9baa413867e80a40a033be5457
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/fauthorization-common/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:326cc5cb870590b1989f4cc038ac056ba2f8ac892d88ed977982d757dce26c9a
+local_deployed_files:
+- .agents/skills/fauthorization-common
+- .agents/skills/fauthorization-common/SKILL.md
+- .agents/skills/fauthorization-common/references/anti-patterns.md
+- .agents/skills/fauthorization-common/references/examples.md
+- .agents/skills/fauthorization-common/references/preferred-patterns.md
+- .claude/skills/fauthorization-common
+- .claude/skills/fauthorization-common/SKILL.md
+- .claude/skills/fauthorization-common/references/anti-patterns.md
+- .claude/skills/fauthorization-common/references/examples.md
+- .claude/skills/fauthorization-common/references/preferred-patterns.md
+local_deployed_file_hashes:
+  .agents/skills/fauthorization-common/SKILL.md: sha256:4ae83c577194586a6760ab520d0534dc2627255b2dc52ebc4155b7c59d2e6e5f
+  .agents/skills/fauthorization-common/references/anti-patterns.md: sha256:dd811df48be4ab2818fee7a9ee4de009a1c4289b549e6f9559c0e1f868c17c31
+  .agents/skills/fauthorization-common/references/examples.md: sha256:d45afdcb44ee2e8d696625fec6075511506c5c9baa413867e80a40a033be5457
+  .agents/skills/fauthorization-common/references/preferred-patterns.md: sha256:326cc5cb870590b1989f4cc038ac056ba2f8ac892d88ed977982d757dce26c9a
+  .claude/skills/fauthorization-common/SKILL.md: sha256:4ae83c577194586a6760ab520d0534dc2627255b2dc52ebc4155b7c59d2e6e5f
+  .claude/skills/fauthorization-common/references/anti-patterns.md: sha256:dd811df48be4ab2818fee7a9ee4de009a1c4289b549e6f9559c0e1f868c17c31
+  .claude/skills/fauthorization-common/references/examples.md: sha256:d45afdcb44ee2e8d696625fec6075511506c5c9baa413867e80a40a033be5457
+  .claude/skills/fauthorization-common/references/preferred-patterns.md: sha256:326cc5cb870590b1989f4cc038ac056ba2f8ac892d88ed977982d757dce26c9a
