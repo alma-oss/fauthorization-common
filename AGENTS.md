@@ -1,5 +1,9 @@
 # AGENTS.md — Alma.Authorization.Common
 
+## Agent Skills
+
+This repo ships Agent Skill for the `Alma.Authorization.Common` library. Compatible agents discover it automatically; see `.agents/skills/fauthorization-common/SKILL.md`.
+
 ## Project Purpose
 
 F# library containing common authorization types shared between client and server applications. Provides the shared type definitions and modules that authorization clients and servers both depend on. Also Fable-compatible. Published as NuGet package `Alma.Authorization.Common`.
